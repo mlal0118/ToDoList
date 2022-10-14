@@ -1,0 +1,17 @@
+### Felhasználó létrehozása
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "email": "johndoe@gmail.com"
+}
+
+### TODO létrehozása
+POST http://localhost:8080/api/users/4/todos
+Content-Type: application/json
+
+{
+  "description": "Takarítás",
+  "deadline": "2022-10-24T17:00:00",
+  "importance": "NON_URGENT"
+}
